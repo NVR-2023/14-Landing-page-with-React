@@ -1,13 +1,16 @@
+// initializes React and load components
 import React from "react";
 import Navbar from "./navbar.jsx";
 import Jumbotron from "./jumbotron.jsx";
 import Card from "./card.jsx";
 
+// Loads images
 import image1 from "../../img/01.jpg";
 import image2 from "../../img/02.jpg";
 import image3 from "../../img/03.jpg";
 import image4 from "../../img/04.jpg";
 
+// Initializes card data
 const cardSet = [
   {
     imageUrl: image1,
@@ -39,6 +42,7 @@ const cardSet = [
   },
 ];
 
+// Mpas cardSet to JSX element
 const jsxCardElement = cardSet.map((object, index) => {
   return (
     <div className="col-sm-12 col-md-3 py-2" key={index}>
@@ -53,7 +57,7 @@ const jsxCardElement = cardSet.map((object, index) => {
   );
 });
 
-//H Home component
+//Home component
 const Home = () => {
   return (
     <div>

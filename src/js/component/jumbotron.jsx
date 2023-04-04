@@ -1,6 +1,7 @@
-//Initialize React
+// Initialize React
 import React from 'react';
-//Jumbotron component
+
+// Defines Jumbotron component
 const Jumbotron = () => {
     return (
             <div className="p-5 mb-4 bg-light rounded-3">

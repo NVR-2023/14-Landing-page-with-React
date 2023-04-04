@@ -1,5 +1,7 @@
+// Initializes React
 import React from 'react';
 
+// Defines Card component
 const Card = (props) => {
 
     return (

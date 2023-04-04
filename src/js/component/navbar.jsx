@@ -1,7 +1,7 @@
-//Initialize React
+// Initializes React
 import React from 'react';
 
-//Navbar component
+// Defines Navbar component
 const Navbar = () => {
     return (
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
