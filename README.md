@@ -1,3 +1,12 @@
+***************************************************************************************************************
+Exercise #14: Landing page with React and Bootstrap
+Basic landing page using React JSX and Bottstrap components  
+Collaborative porject by Ben Alexander and Nuno Rodrigues, using GIT branching best practices
+
+Mark received:
+Date: 
+Teacher:
+***************************************************************************************************************
 # Hello World with React boilerplate
 
 Start coding a react application
