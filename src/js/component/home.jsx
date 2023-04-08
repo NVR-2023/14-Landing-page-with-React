@@ -2,7 +2,7 @@
 import React from "react";
 import Navbar from "./navbar.jsx";
 import Jumbotron from "./jumbotron.jsx";
-import Card from "./card.jsx";
+import Card from "./card.jsx"; 
 
 // Loads images
 import image1 from "../../img/01.jpg";
@@ -13,32 +13,32 @@ import image4 from "../../img/04.jpg";
 // Initializes card data
 const cardSet = [
   {
-    imageUrl: image1,
-    cardTitle: "Title 1",
-    cardDescription: "This is a description",
+    imageUrl: image1, 
+    cardTitle: "Card Title 1",
+    cardDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatum consequuntur, vel quasi neque nisi illo enim dolorem quia incidunt distinctio.",
     buttonUrl: "https://4geeksacademy.com/",
-    buttonLabel: "4Geeks",
+    buttonLabel: "Find Out More!",
   },
   {
     imageUrl: image2,
-    cardTitle: "Title 2",
-    cardDescription: "This is a description",
+    cardTitle: "Card Title 2",
+    cardDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatum consequuntur, vel quasi neque nisi illo enim dolorem quia incidunt distinctio.",
     buttonUrl: "https://4geeksacademy.com/",
-    buttonLabel: "4Geeks",
+    buttonLabel: "Find Out More!",
   },
   {
     imageUrl: image3,
-    cardTitle: "Title 3",
-    cardDescription: "This is a description",
+    cardTitle: "Card Title 3",
+    cardDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatum consequuntur, vel quasi neque nisi illo enim dolorem quia incidunt distinctio.",
     buttonUrl: "https://4geeksacademy.com/",
-    buttonLabel: "4Geeks",
+    buttonLabel: "Find Out More!",
   },
   {
     imageUrl: image4,
-    cardTitle: "Title 4",
-    cardDescription: "This is a description",
+    cardTitle: "Card Title 4",
+    cardDescription: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatum consequuntur, vel quasi neque nisi illo enim dolorem quia incidunt distinctio.",
     buttonUrl: "https://4geeksacademy.com/",
-    buttonLabel: "4Geeks",
+    buttonLabel: "Find Out More!",
   },
 ];
 
@@ -68,7 +68,7 @@ const Home = () => {
         <div>
           <Jumbotron />
         </div>
-        <div className="container-fluxi d-flex gx-0 row">{jsxCardElement}</div>
+        <div className="container-fluid d-flex gx-0 row">{jsxCardElement}</div>
       </div>
     </div>
   );
